@@ -78,7 +78,7 @@ export const Cover = () => {
               </a>
               <a
                 target="_blank"
-                href="https://enospebrian1.github.io/myresume/"
+                href="https://enospebrian.github.io/myresume/"
                 class="hyperlink-profile"
               >
                 <Button variant="secondary">My Resume</Button>
