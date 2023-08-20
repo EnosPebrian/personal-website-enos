@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 
 export const SKillCard = ({ skill }) => {
   return (
-    <Card style={{ width: "18rem" }} className="p-1">
+    <Card style={{ width: "22rem" }} className="p-1">
       <Card.Img
         variant="top"
         src={skill.img_url}
@@ -11,7 +11,13 @@ export const SKillCard = ({ skill }) => {
       />
       <Card.Body>
         <Card.Title>{skill.name}</Card.Title>
-        <Card.Text>{skill.description}</Card.Text>
+        <Card.Text>
+          <ul>
+            {skill.description.map((val) => (
+              <li>{val}</li>
+            ))}
+          </ul>
+        </Card.Text>
       </Card.Body>
     </Card>
   );

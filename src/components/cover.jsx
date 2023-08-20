@@ -1,5 +1,5 @@
 import { Button, Card, Container } from "react-bootstrap";
-import profilepicture from "../asset/Profile Picture.png";
+import profilepicture from "../asset/photos/Profile Picture.png";
 import "../css/cover.css";
 
 export const Cover = () => {
@@ -84,11 +84,7 @@ export const Cover = () => {
                 <Button variant="secondary">My Resume</Button>
               </a>
 
-              <a
-                class="hyperlink-profile"
-                target="_blank"
-                href="https://enospebrian.github.io/HTML-Try-Out/"
-              >
+              <a class="hyperlink-profile" href="#portfolio">
                 <Button variant="secondary">My Portfolio</Button>
               </a>
             </Card.Text>

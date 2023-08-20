@@ -1,5 +1,6 @@
 import { About } from "../components/About";
 import { TopNavbar } from "../components/Navbar";
+import { Works } from "../components/Works";
 import { Cover } from "../components/cover";
 
 export const MainPage = () => {
@@ -11,6 +12,9 @@ export const MainPage = () => {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Works />
       </section>
     </>
   );
