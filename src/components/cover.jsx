@@ -1,6 +1,9 @@
 import { Button, Card, Container } from "react-bootstrap";
 import profilepicture from "../asset/photos/Profile Picture.png";
 import "../css/cover.css";
+import { SVGmail } from "../asset/SVGmail";
+import { SVGlinkedin } from "../asset/SVGlinkedin";
+import { SVGgithub } from "../asset/SVGgithub";
 
 export const Cover = () => {
   return (
@@ -34,11 +37,7 @@ export const Cover = () => {
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
-                  <img
-                    src="https://img.freepik.com/free-icon/email_318-859700.jpg?w=360"
-                    width="15px"
-                    alt="mail"
-                  />
+                  <SVGmail />
                 </Button>
               </a>
               <a
@@ -51,12 +50,7 @@ export const Cover = () => {
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
-                  <img
-                    id="linkedin"
-                    src="https://logospng.org/download/linkedin/logo-linkedin-icon-4096.png"
-                    width="15px"
-                    alt="logo linkedin"
-                  />
+                  <SVGlinkedin />
                 </Button>
               </a>
               <a
@@ -69,11 +63,7 @@ export const Cover = () => {
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/900px-Octicons-mark-github.svg.png?20180806170715"
-                    width="15px"
-                    alt="logo github"
-                  />
+                  <SVGgithub />
                 </Button>
               </a>
               <a
