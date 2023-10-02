@@ -4,8 +4,22 @@ import img_eventTicket from "./photos/event-ticket-management.PNG";
 import img_crystalux from "./photos/Crystalux.PNG";
 import img_expensetracker from "./photos/Expense tracker app.PNG";
 import img_TheCoffeeSpace from "./photos/TheCoffeeSpace.png";
+import img_social_media from "./photos/Repligram.png";
 
 export const works = [
+  {
+    name: "Social media app (replica)",
+    href: "https://socmed-app.vercel.app/home",
+    img_url: img_social_media,
+    description: [
+      "React app with expressJS REST API using sequelize ORM",
+      `Create user, account verification, login, and edit profile`,
+      `Able to post photo, search post, search account`,
+      `Simple messaging with web socket and notification`,
+      `Able to like and follow`,
+      `Responsive UI`,
+    ],
+  },
   {
     name: "Coffee Space (POS)",
     href: "https://the-coffee-space.vercel.app/",
