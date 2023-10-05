@@ -35,7 +35,7 @@ export const works = [
   },
   {
     name: "Expense Tracker App",
-    href: "",
+    href: "https://expense-tracker-ens.vercel.app/",
     img_url: img_expensetracker,
     description: [
       "CRUD expense data",
@@ -45,7 +45,7 @@ export const works = [
   },
   {
     name: "Event Ticket Management App",
-    href: "",
+    href: "https://event-ticket-management.vercel.app/",
     img_url: img_eventTicket,
     description: [
       "An app for event advertisement and discovery built upon ReactJS",
@@ -61,18 +61,18 @@ export const works = [
     img_url: img_todos,
     description: [
       "Build with ReactJS",
-      "Works in search page and function",
       "CRUD todo and its subtask",
       "Login and Register system",
     ],
   },
   {
     name: "Crystalux",
-    href: "",
+    href: "https://product-eight-iota.vercel.app/market",
     img_url: img_crystalux,
     description: [
       "Build with ReactJS",
       "CRUD products in UI",
+      "Works in search page and function",
       "Generate responsive UI",
     ],
   },
