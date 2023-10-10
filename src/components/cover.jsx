@@ -31,9 +31,11 @@ export const Cover = () => {
                 target="_blank"
                 href="mailto:enospebrian1@gmail.com"
                 class="hyperlink-profile"
+                aria-label="email"
               >
                 <Button
                   variant="light"
+                  name="email-link-button"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
@@ -44,9 +46,11 @@ export const Cover = () => {
                 target="_blank"
                 href="https://www.linkedin.com/in/enospebrian/"
                 class="hyperlink-profile"
+                aria-label="linkedin"
               >
                 <Button
                   variant="light"
+                  name="linkedin-link-button"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
@@ -57,9 +61,11 @@ export const Cover = () => {
                 class="hyperlink-profile"
                 target="_blank"
                 href="https://github.com/enospebrian1"
+                aria-label="github"
               >
                 <Button
                   variant="light"
+                  name="github-link-button"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
@@ -70,12 +76,21 @@ export const Cover = () => {
                 target="_blank"
                 href="https://enospebrian.github.io/myresume/"
                 class="hyperlink-profile"
+                aria-label="profile"
               >
-                <Button variant="secondary">My Resume</Button>
+                <Button variant="secondary" name="resume">
+                  My Resume
+                </Button>
               </a>
 
-              <a class="hyperlink-profile" href="#portfolio">
-                <Button variant="secondary">My Portfolio</Button>
+              <a
+                class="hyperlink-profile"
+                href="#portfolio"
+                aria-label="portfolio"
+              >
+                <Button variant="secondary" name="portfolio">
+                  My Portfolio
+                </Button>
               </a>
             </Card.Text>
           </Card.Body>
@@ -89,6 +104,7 @@ export const Cover = () => {
               border: "1px solid gray",
               order: "2",
             }}
+            alt="enos-photo"
           />
         </Card>
       </Container>

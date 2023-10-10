@@ -9,6 +9,7 @@ export const SKillCard = ({ skill }) => {
           src={skill.img_url}
           width="100%"
           style={{ aspectRatio: "1/1", objectFit: "contain" }}
+          alt={skill.name}
         />
       </a>
       <Card.Body>
