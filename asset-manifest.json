@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/personal-website-enos/static/css/main.a38ef5bf.css",
-    "main.js": "/personal-website-enos/static/js/main.5a43e0d4.js",
+    "main.js": "/personal-website-enos/static/js/main.33f77e03.js",
     "static/js/787.b238a5b8.chunk.js": "/personal-website-enos/static/js/787.b238a5b8.chunk.js",
     "static/media/TheCoffeeSpace.png": "/personal-website-enos/static/media/TheCoffeeSpace.d7206a2c6aba7b25544b.png",
     "static/media/event-ticket-management.PNG": "/personal-website-enos/static/media/event-ticket-management.86711aa40ad318f0ff10.PNG",
     "static/media/Repligram.png": "/personal-website-enos/static/media/Repligram.e0f35e2215c829df5754.png",
     "static/media/altmap.PNG": "/personal-website-enos/static/media/altmap.a9625c5238d6c93ff830.PNG",
     "static/media/Crystalux.PNG": "/personal-website-enos/static/media/Crystalux.00e04e52415a6e66632a.PNG",
+    "static/media/GadgetGallery.png": "/personal-website-enos/static/media/GadgetGallery.3e99901a321cd522ecd9.png",
     "static/media/Profile Picture.png": "/personal-website-enos/static/media/Profile Picture.686190292c8fabf5978d.png",
     "static/media/Expense tracker app.PNG": "/personal-website-enos/static/media/Expense tracker app.1076aac3cf60dcbe4fe7.PNG",
     "static/media/todos.PNG": "/personal-website-enos/static/media/todos.d93a0c264b0bab2882f9.PNG",
     "index.html": "/personal-website-enos/index.html",
     "main.a38ef5bf.css.map": "/personal-website-enos/static/css/main.a38ef5bf.css.map",
-    "main.5a43e0d4.js.map": "/personal-website-enos/static/js/main.5a43e0d4.js.map",
+    "main.33f77e03.js.map": "/personal-website-enos/static/js/main.33f77e03.js.map",
     "787.b238a5b8.chunk.js.map": "/personal-website-enos/static/js/787.b238a5b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a38ef5bf.css",
-    "static/js/main.5a43e0d4.js"
+    "static/js/main.33f77e03.js"
   ]
 }
