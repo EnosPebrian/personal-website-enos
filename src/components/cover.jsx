@@ -35,7 +35,7 @@ export const Cover = () => {
               >
                 <Button
                   variant="light"
-                  name="email-link-button"
+                  name="email"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
@@ -50,7 +50,7 @@ export const Cover = () => {
               >
                 <Button
                   variant="light"
-                  name="linkedin-link-button"
+                  name="linkedin"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
@@ -65,7 +65,7 @@ export const Cover = () => {
               >
                 <Button
                   variant="light"
-                  name="github-link-button"
+                  name="github"
                   className="d-flex align-items-center justify-content-center border border-secondary"
                   style={{ height: "38px" }}
                 >
